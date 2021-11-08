@@ -1,109 +1,114 @@
-:root{
-    --vermelho:#E50914;
-    --preto:#141414;
+:root {
+  --vermelho: #e50914;
+  --preto: #141414;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /*Elementos base*/
-body{
-    background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
+body {
+  background: var(--preto);
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
 }
-header .container{
-    display: flex;
-    align-items: center;
+header .container {
+  display: flex;
+  align-items: center;
 }
-header .logo{
-    color: var(--vermelho);
-    font: 700 28px Arial, Times;
-    margin: 22px 50px;
+header .logo {
+  color: var(--vermelho);
+  font: 700 28px Arial, Times;
+  margin: 22px 50px;
 }
-header nav a{
-    text-decoration: none;
-    color: rgb(216, 216, 216);
-    margin-right: 20px;
-    font: normal 16px Arial;
+header nav a {
+  text-decoration: none;
+  color: rgb(216, 216, 216);
+  margin-right: 20px;
+  font: normal 16px Arial;
 }
 
-header nav a:hover{
-    color: #fff;
+header nav a:hover {
+  color: #fff;
 }
-header .menu1{
-    justify-content: space-between;
+header .menu1 {
+  justify-content: space-between;
 }
-.menu1 .items{
-    margin-right: 50px;
+.menu1 .items {
+  margin-right: 50px;
 }
-.menu1 .items i{
-    margin-left: 20px;
-    cursor:pointer;
+.menu1 .items i {
+  margin-left: 20px;
+  cursor: pointer;
 }
-header .menu2{
-    display: none;
+header .menu2 {
+  display: none;
 }
 /*Filme principal*/
-.filme-principal1{
-    background: linear-gradient(rgba(14,14,14, .30),rgba(14,14,14, .30),rgba(14,14,14, .80)100%), url(/img/capa-round6.jpg);
-    height: 550px;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.filme-principal1 {
+  background: linear-gradient(
+      rgba(14, 14, 14, 0.3),
+      rgba(14, 14, 14, 0.3),
+      rgba(14, 14, 14, 0.8) 100%
+    ),
+    url(/img/capa-round6.jpg);
+  height: 550px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.filme-principal2{
-    display: none;
+.filme-principal2 {
+  display: none;
 }
-.filme-principal1 .container{
-    margin-left: 50px;
-    max-width: 40%;
+.filme-principal1 .container {
+  margin-left: 50px;
+  max-width: 40%;
 }
-.titulo{
-    font-size: 90px;
-    margin-bottom: 2%;
-    font-family:'Trebuchet MS', Arial, sans-serif;
+.titulo {
+  font-size: 90px;
+  margin-bottom: 2%;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
 }
-.descricao{
-    font: 500 19px Arial;
-    color: rgb(216, 216, 216);
-    margin-bottom: 4%;
+.descricao {
+  font: 500 19px Arial;
+  color: rgb(216, 216, 216);
+  margin-bottom: 4%;
 }
-.botao{
-    border: none;
-    font: 600 18px Arial;
-    padding: 10px 29px;
-    border-radius: 4px;
-    margin-right: 1.5%;
-    cursor: pointer;
-    transition: .2s ease-out;
+.botao {
+  border: none;
+  font: 600 18px Arial;
+  padding: 10px 29px;
+  border-radius: 4px;
+  margin-right: 1.5%;
+  cursor: pointer;
+  transition: 0.2s ease-out;
 }
 .botoes .informacoes {
-    background-color: rgba(77, 77, 77, 0.8);
-    color: white;
+  background-color: rgba(77, 77, 77, 0.8);
+  color: white;
 }
-.botoes .informacoes:hover{
-    background-color: rgba(77, 77, 77, .50);
-    color: rgb(200, 200, 200)
+.botoes .informacoes:hover {
+  background-color: rgba(77, 77, 77, 0.5);
+  color: rgb(200, 200, 200);
 }
-.botoes .assitir:hover{
-    background-color: rgb(200, 200, 200)
+.botoes .assitir:hover {
+  background-color: rgb(200, 200, 200);
 }
-.botoes i{
-    margin-right: 8px;
+.botoes i {
+  margin-right: 8px;
 }
-.carrosel-filmes{
-    margin: 30px 50px;
+.carrosel-filmes {
+  margin: 30px 50px;
 }
-.carrosel-filmes h3{
-    font: 600 23px Arial;
-    margin-bottom: 15px;
+.carrosel-filmes h3 {
+  font:600 23px Arial;
+  margin-bottom: 15px;
 }
-.box-filme{
-    height: 100%;
-    width: 100%;
-    display: block;
-    border-radius: 4px;
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+  border-radius: 4px;
 }
