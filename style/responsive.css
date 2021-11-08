@@ -1,95 +1,100 @@
-@media screen and (max-width: 1024px){
-    header .logo{
-        margin: 15px 25px;
-    }
-    .menu1 .items{
-        margin-right: 25px;
-    }
-    .filme-principal1 .container{
-        margin-left: 25px;
-        max-width: 70%;
-    }
-    .botao{
-        margin-top: 5px;
-    }
+@media screen and (max-width: 1024px) {
+  header .logo {
+    margin: 15px 25px;
+  }
+  .menu1 .items {
+    margin-right: 25px;
+  }
+  .filme-principal1 .container {
+    margin-left: 25px;
+    max-width: 70%;
+  }
+  .botao {
+    margin-top: 5px;
+  }
 }
-@media screen and (max-width: 768px){
-    .titulo{
-        font-size: 60px;
-    }
-    .descricao{
-        font-size: 16px;
-    }
-    .botao{
-        font-size: 15px;
-        padding: 10px 17px;
-    }
-    .carrosel-filmes h3{
-        font-size: 18px;
-    }
-    header .logo{
-        font-size:22px;
-    }
-    header nav a{
-        font-size: 14px;
-    }
-    .carrosel-filmes{
-        margin: 30px 25px;
-    }
+@media screen and (max-width: 768px) {
+  .titulo {
+    font-size: 60px;
+  }
+  .descricao {
+    font-size: 16px;
+  }
+  .botao {
+    font-size: 15px;
+    padding: 10px 17px;
+  }
+  .carrosel-filmes h3 {
+    font-size: 18px;
+  }
+  header .logo {
+    font-size: 22px;
+  }
+  header nav a {
+    font-size: 14px;
+  }
+  .carrosel-filmes {
+    margin: 30px 25px;
+  }
 }
-@media screen and (max-width: 480px){
-    header .menu1{
-        display: none;
-    }
-    header .logo{
-        font-size:35px;
-        margin: 5px 10px 0;
-    }
-    header .menu2{
-        display: flex;
-        justify-content: center;
-    }
-    .menu2 nav a{
-        margin-left: 40px;
-    }
-    .filme-principal1{
-        display: none;
-    }
-    .filme-principal2{
-        display: flex;
-        background: linear-gradient(rgba(14,14,14, .50),rgba(14,14,14, .50),rgba(14,14,14, .80)100%), url(../img/capa-round6-mobile.jpg);
-        height: 550px;
-        background-size: cover;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .filme-principal2 .container{
-        margin:0;
-        max-width: 80%;
-    }
+@media screen and (max-width: 480px) {
+  header .menu1 {
+    display: none;
+  }
+  header .logo {
+    font-size: 35px;
+    margin: 5px 10px 0;
+  }
+  header .menu2 {
+    display: flex;
+    justify-content: center;
+  }
+  .menu2 nav a {
+    margin-left: 40px;
+  }
+  .filme-principal1 {
+    display: none;
+  }
+  .filme-principal2 {
+    display: flex;
+    background: linear-gradient(
+        rgba(14, 14, 14, 0.5),
+        rgba(14, 14, 14, 0.5),
+        rgba(14, 14, 14, 0.8) 100%
+      ),
+      url(../img/capa-round6-mobile.jpg);
+    height: 550px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .filme-principal2 .container {
+    margin: 0;
+    max-width: 80%;
+  }
 }
-@media screen and (max-width: 390px){
-    .menu2 nav a{
-        margin-left: 25px;
-    }
+@media screen and (max-width: 390px) {
+  .menu2 nav a {
+    margin-left: 25px;
+  }
 }
-@media screen and (max-width: 340px){
-    .menu2 nav a{
-        margin-left: 15px;
-    }
-    .filme-principal2 .container{
-        max-width: 90%;
-    }
-    .titulo{
-        font-size: 50px;
-    }
-    .descricao{
-        font-size: 14px;
-    }
-    .botao{
-        font-size: 13px;
-    }
+@media screen and (max-width: 340px) {
+  .menu2 nav a {
+    margin-left: 15px;
+  }
+  .filme-principal2 .container {
+    max-width: 90%;
+  }
+  .titulo {
+    font-size: 50px;
+  }
+  .descricao {
+    font-size: 14px;
+  }
+  .botao {
+    font-size: 13px;
+  }
 }
