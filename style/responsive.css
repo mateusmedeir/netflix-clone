@@ -57,7 +57,7 @@
     }
     .filme-principal2{
         display: flex;
-        background: linear-gradient(rgba(14,14,14, .50),rgba(14,14,14, .50),rgba(14,14,14, .80)100%), url(img/capa-round6-mobile.jpg);
+        background: linear-gradient(rgba(14,14,14, .50),rgba(14,14,14, .50),rgba(14,14,14, .80)100%), url(../img/capa-round6-mobile.jpg);
         height: 550px;
         background-size: cover;
         display: flex;
