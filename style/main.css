@@ -52,7 +52,7 @@ header .menu2 {
       rgba(14, 14, 14, 0.3),
       rgba(14, 14, 14, 0.8) 100%
     ),
-    url(/img/capa-round6.jpg);
+    url(img/capa-round6.jpg);
   height: 550px;
   background-size: cover;
   display: flex;
